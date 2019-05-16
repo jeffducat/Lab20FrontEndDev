@@ -1,0 +1,47 @@
+body{
+    background: url("Arches.jpg")center fixed ;
+  }
+  .item-1{
+    grid-area: header;
+  }
+  .item-1 ul {
+    padding: 1% 1% 1% 10%;
+    margin: 0;
+    text-decoration-color: gold;
+  }
+  
+  .item-1 ul li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .item-2 img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+  h1{
+      color:gold;
+      font-size: 70px;
+  }
+  p{
+      color: gold;
+  }
+  .item-3{
+        grid-area: footer;
+    }
+    .item-3 ul{
+        padding: 1% 1% 1% 10%;
+        margin: 0;
+        text-decoration-color: gold;
+  }
+  .item-3 ul li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: gold;
+  }
